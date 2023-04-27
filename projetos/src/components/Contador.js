@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 
 function Contador () {
-    const [frase, setFrase] = useState("Conheça a Fatec");
+    const [frase, setFrase] = useState("Venha estudar na Fatec!!!");
   const [substring, setSubstring] = useState("");
 
   useEffect(() => {
