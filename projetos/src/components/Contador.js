@@ -1,4 +1,6 @@
 
+import React, { useState, useEffect } from "react";
+
 function Contador () {
     const [frase, setFrase] = useState("Conheça a Fatec");
   const [substring, setSubstring] = useState("");

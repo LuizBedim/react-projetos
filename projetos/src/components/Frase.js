@@ -1,4 +1,6 @@
 
+import React, { useState, useEffect } from "react";
+
 function Frase() {
   const [totalPessoas, setTotalPessoas] = useState(0);
   const [totalHomens, setTotalHomens] = useState(0);
