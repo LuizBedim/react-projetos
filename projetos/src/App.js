@@ -7,11 +7,14 @@ import Clock from "./components/Clock";
 import FormQuiz from "./components/FormQuiz";
 import FormTicket from "./components/FormTicket";
 import Accordion from "./components/Accordion";
+import Messenger from "./components/Messenger";
+
+import { useState } from 'react';
 
 function App() {
     return (
         <>
-            <Accordion />
+            <Messenger />
         </>
     );
 }
