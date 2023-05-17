@@ -1,3 +1,6 @@
+
+import React from 'react';
+
 import Relogio from "./components/Relogio";
 import Contador from "./components/Contador";
 import Frase from "./components/Frase";
@@ -9,12 +12,15 @@ import FormTicket from "./components/FormTicket";
 import Accordion from "./components/Accordion";
 import Messenger from "./components/Messenger";
 
-import { useState } from 'react';
+// import Calculadora from "./components/calculadora/Calculadora";
+
+import MinhasRotas from "./minhasRotas"
+
 
 function App() {
     return (
         <>
-            <Messenger />
+            <MinhasRotas />
         </>
     );
 }

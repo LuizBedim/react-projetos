@@ -1,15 +1,19 @@
 
+import React from 'react';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 
-import Clock from "./Clock";
+import Home from "./Home";
+import Accordion from './components/Accordion';
 
-
-export default function MinhasRotas () {
+const MinhasRotas = () => {
     return (
         <BrowserRouter>
-            <Routes>
-                <Route path="/clock" element={<Clock />} />
+            <Routes>   
+                <Route path="/" element={<Home />} />
+                <Route path="/accordion" element={<Accordion />} />
             </Routes>
         </BrowserRouter>
     );
 }
+
+export default MinhasRotas;
