@@ -10,6 +10,9 @@ export default function Home () {
                     <li>
                         <Link to='/accordion'>Accordion</Link>
                     </li>
+                    <li>
+                        <Link to='/calculadora'>Calculadora</Link>
+                    </li>
                 </ul>
             </nav>
         </div>
