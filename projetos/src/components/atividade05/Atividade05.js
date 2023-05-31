@@ -1,11 +1,16 @@
-import React from 'react'
-import {Link} from "react-router-dom"
+import React from 'react';
+import {Link} from 'react-router-dom';
+
+import '../../css/home/home.css';
 
 export default function Atividade05 () {
     return (
-        <div>
+        <div className="container-main">
             <nav>
                 <ul>
+                    <li>
+                        <h1>Atividade 05</h1>
+                    </li>
                     <li>
                         <Link to='/accordion'>Accordion</Link>
                     </li>

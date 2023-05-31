@@ -1,12 +1,16 @@
-import React from 'react'
-import {Link} from "react-router-dom"
+import React from 'react';
+import {Link} from "react-router-dom";
+
+import '../../css/home/home.css';
 
 export default function Atividade01 () {
     return (
-        <div>
-            <h1>Aula 01</h1>
+        <div className="container-main">
             <nav>
                 <ul>
+                    <li>
+                        <h1>Atividade 01</h1>
+                    </li>
                     <li>
                         <Link to='/relogio'>Relogio</Link>
                     </li>

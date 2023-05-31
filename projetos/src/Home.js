@@ -1,11 +1,13 @@
 
-import React from 'react'
-import {Link} from "react-router-dom"
+import React from 'react';
+import {Link} from 'react-router-dom';
+
+import './css/home/home.css';
 
 export default function Home () {
     return (
-        <div>
-            <nav>
+        <div className="container-main">
+        <nav>
                 <ul>
                     <li>
                         <Link to='/atividade01'>Atividade 01</Link>
@@ -24,6 +26,9 @@ export default function Home () {
                     </li>
                     <li>
                         <Link to='/calculadora'>Calculadora</Link>
+                    </li>
+                    <li>
+                        <Link to='/game'>Jogo da memória</Link>
                     </li>
                 </ul>
             </nav>

@@ -35,6 +35,9 @@ import FormTicket from './components/atividade05/FormTicket';
 // Calculadora
 import Calculadora from './components/calculadora/Calculadora';
 
+// Jogo da memória
+import Game from './components/jogo-memoria/Game';
+
 const MinhasRotas = () => {
     return (
         <BrowserRouter>
@@ -71,6 +74,10 @@ const MinhasRotas = () => {
                 
                 // Calculadora
                 <Route path="/calculadora" element={<Calculadora />} />
+
+                // Jogo da memória
+                <Route path="/game" element={<Game />} />
+
             </Routes>
         </BrowserRouter>
     );
