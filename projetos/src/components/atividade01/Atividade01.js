@@ -23,5 +23,5 @@ export default function Atividade01 () {
                 </ul>
             </nav>
         </div>
-    )
+    );
 }

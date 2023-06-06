@@ -1,5 +1,6 @@
-
 import React, { useState, useEffect } from "react";
+
+import '../../css/atividade01/frase.css';
 
 function Frase() {
     const [frase, setFrase] = useState("Venha estudar na Fatec!!!");
@@ -22,9 +23,13 @@ function Frase() {
     }, [frase]);
 
     return (
-        <div>
-            <p>Exercício 2 - Letreiro</p>
-            <h3>{substring}</h3>
+        <div className="container-main">
+            <div className="container-frase">
+
+                <div className="frase">
+                    <h3>{substring}</h3>
+                </div>
+            </div>
         </div>
     );
 }

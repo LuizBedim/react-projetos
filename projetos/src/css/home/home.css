@@ -60,4 +60,21 @@
 
     display: flex;
     justify-content: center;
+
+}
+
+.relogio {
+    text-align: center;
+    font-size: 4rem;
+    color: #fff;
+
+    background-color: rgba(0, 0, 0, 0.927);
+    border-radius: 20px;
+    
+    padding: 0.5rem;
+
+}
+
+.relogio h1 {
+    font-size: 3rem;
 }

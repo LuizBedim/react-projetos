@@ -1,0 +1,21 @@
+
+.frase h3 {
+    text-align: center;
+    color: #fff;
+
+    font-size: 4rem;
+}
+
+.container-frase {
+    text-align: center;
+    font-size: 4rem;
+    color: #fff;
+
+    background-color: rgba(0, 0, 0, 0.927);
+    border-radius: 20px;
+    
+    padding: 0.5rem;
+
+    display: block;
+    width: 50%;
+}
