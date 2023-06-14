@@ -1,5 +1,6 @@
 
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function FormTicket () {
     const [firstName, setFirstName] = useState('');
@@ -37,6 +38,7 @@ export default function FormTicket () {
             <p>
                 Your ticket will be issued to: <b>{fullName}</b>
             </p>
+            <Link to='/atividade05'>Voltar</Link>
         </>
     );
 }

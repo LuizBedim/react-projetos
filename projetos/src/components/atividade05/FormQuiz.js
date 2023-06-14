@@ -1,5 +1,6 @@
 
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function FormQuiz () {
     const [answer, setAnswer] = useState('');
@@ -52,6 +53,7 @@ export default function FormQuiz () {
                     </p>
                 }
             </form>
+            <Link to='/atividade05'>Voltar</Link>
         </>
     );
 }

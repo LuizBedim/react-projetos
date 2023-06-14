@@ -22,8 +22,19 @@ import TodoList from './components/atividade03/TodoList';
 // Atividade 04
 import Atividade04 from "./components/atividade04/Atividade04";
 import Toolbar from "./components/atividade04/Toolbar";
+import Gallery1 from './components/atividade04/Gallery1';
 import Counter from "./components/atividade04/Counter";
+import Form from './components/atividade04/Form';
+import MovingDot from './components/atividade04/MovingDot';
+import Form2 from './components/atividade04/Form2';
+import Form3 from './components/atividade04/Form3';
+import List from './components/atividade04/List';
+import List2 from './components/atividade04/List2';
+import ShapeEditor from './components/atividade04/ShaperEditor';
 import CounterList from "./components/atividade04/CounterList";
+import List3 from './components/atividade04/List3';
+import List4 from './components/atividade04/List4';
+import BucketList from './components/atividade04/BucketList';
 
 // Atividade 05
 import Atividade05 from './components/atividade05/Atividade05';
@@ -34,9 +45,6 @@ import FormTicket from './components/atividade05/FormTicket';
 
 // Calculadora
 import Calculadora from './components/calculadora/Calculadora';
-
-// Jogo da memória
-import Game from './components/jogo-memoria/Game';
 
 const MinhasRotas = () => {
     return (
@@ -62,8 +70,19 @@ const MinhasRotas = () => {
                 // Atividade 04
                 <Route path="/atividade04" element={<Atividade04 />} />
                 <Route path="/toolbar" element={<Toolbar />} />
+                <Route path="/gallery1" element={<Gallery1 />} />
                 <Route path="/counter" element={<Counter />} />
+                <Route path="/form" element={<Form />} />
+                <Route path="/movingdot" element={<MovingDot />} />
+                <Route path="/form2" element={<Form2 />} />
+                <Route path="/form3" element={<Form3 />} />
+                <Route path="/list" element={<List />} />
+                <Route path="/list2" element={<List2 />} />
+                <Route path="/shapeeditor" element={<ShapeEditor />} />
                 <Route path="/counterlist" element={<CounterList />} />
+                <Route path="/list3" element={<List3 />} />
+                <Route path="/list4" element={<List4 />} />
+                <Route path="/bucketlist" element={<BucketList />} />
 
                 // Atividade 05
                 <Route path="/atividade05" element={<Atividade05 />} />
@@ -74,9 +93,6 @@ const MinhasRotas = () => {
                 
                 // Calculadora
                 <Route path="/calculadora" element={<Calculadora />} />
-
-                // Jogo da memória
-                <Route path="/game" element={<Game />} />
 
             </Routes>
         </BrowserRouter>

@@ -27,9 +27,6 @@ export default function Home () {
                     <li>
                         <Link to='/calculadora'>Calculadora</Link>
                     </li>
-                    <li>
-                        <Link to='/game'>Jogo da memória</Link>
-                    </li>
                 </ul>
             </nav>
         </div>

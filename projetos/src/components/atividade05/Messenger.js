@@ -1,5 +1,6 @@
 
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import Chat from './Chat.js';
 import ContactList from './ContactList.js';
@@ -14,6 +15,7 @@ export default function Messenger() {
                 onSelect={contact => setTo(contact)}
             />
             <Chat contact={to} />
+            <Link to='/atividade05'>Voltar</Link>
         </div>
     )
 }

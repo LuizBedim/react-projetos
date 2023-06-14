@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function TodoList() {
     return (
         <>
@@ -12,6 +14,8 @@ export default function TodoList() {
                 <li> Rehearse a movie scene</li>
                 <li> Improve the spectrum technology </li>
             </ul>
+
+            <Link to='/atividade03'>Voltar</Link>
         </>
     ) 
 }

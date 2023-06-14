@@ -1,0 +1,98 @@
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+
+    background-image: url('../../img/img1.jpg');
+}
+
+.container-contador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    width: 400px;
+    height:30%;
+
+    background-color: rgba(0, 0, 0, 0.67);
+    color: #fff;
+    border-radius: 20px;
+}
+
+.container-contador h2 {
+    font-size: 2rem;
+}
+
+.container-divisao {
+    display: flex;
+}
+
+.container-contador .botao-voltar{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.927);
+
+    width: 20%;
+    border-radius: 10px;
+}
+
+.homem, .mulher {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.mulher img {
+    width: 60px;
+    height: 60px;
+}
+
+.homem img {
+    width: 60px;
+    height: 60px;
+}
+
+.image {
+    width: 10px;
+    height: 10px;
+    background-image: url('../../img/menina.png');
+}
+
+/* .container-contador button {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: opacity 0.3s;
+
+    color: #fff;
+}
+
+.container-contador button:hover {
+    opacity: 0.7;
+} */
+
+.botoes-contador button {
+    background-color: rgba(0, 0, 0, 0.927);
+    border: 0;
+    color: #fff;
+    font-size: 2rem;
+    margin-right: 15px;
+
+    width: 30px;
+    border-radius: 10px;
+}
+
+.container-contador button:hover {
+    background-color: rgba(255, 166, 0, 0.927);
+}

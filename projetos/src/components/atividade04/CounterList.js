@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import { Link } from "react-router-dom";
+
 let initialCounters = [
     0, 0, 0
 ];
@@ -21,15 +23,18 @@ export default function CounterList() {
     }
 
     return (
-        <ul>
-            {counters.map((counter, i) => (
-                <li key={i}>
-                    {counter}
-                    <button onClick={() => {
-                        handleIncrementClick(i);
-                    }}>+1</button>
-                </li>
-            ))}
-        </ul>
+        <>
+            <ul>
+                {counters.map((counter, i) => (
+                    <li key={i}>
+                        {counter}
+                        <button onClick={() => {
+                            handleIncrementClick(i);
+                        }}>+1</button>
+                    </li>
+                ))}
+            </ul>
+            <Link to='/atividade04'>Voltar</Link>
+        </>
     );
 }

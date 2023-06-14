@@ -1,4 +1,6 @@
 
+import { Link } from "react-router-dom";
+
 function AlertButton ({ message, children }) {
     return (
         <button onClick = {() => alert(message)}>
@@ -17,6 +19,8 @@ export default function Toolbar () {
             <AlertButton message="Uploading!">
                 Upload Image
             </AlertButton>
+
+            <Link to='/atividade04'>Voltar</Link>
         </div>
     );
 }

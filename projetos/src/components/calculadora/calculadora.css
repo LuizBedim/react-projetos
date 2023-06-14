@@ -1,13 +1,87 @@
-
-* {
-    margin: 0;
-    padding: 0;
+.calculadora {
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
 }
 
-body {
-    background-color: #000;
+.container-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-h1 {
+.container-calculadora {
+    background-color: rgba(0, 0, 0, 0.67);
+    height: 350px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
     color: #fff;
+}
+
+.voltar {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.927);
+    padding: 5px;
+    border-radius: 10px;
+
+    margin-top: 30px;
+
+    font-size: 20px;
+}
+
+.resultado {
+    text-align: right;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+.input input {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+
+    border: 0;
+
+    background-color: rgba(0, 0, 0, 0.927);
+    color: #fff;
+}
+
+.botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+.botoes button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    /* background-color: #eee; */
+    background-color: rgba(0, 0, 0, 0.927);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.botoes button:hover {
+    background-color: rgba(255, 166, 0, 0.927);
+}
+
+.botoes button:active {
+    background-color: rgba(0, 0, 0, 0.927);
+}
+
+.yellow {
+    background-color: rgba(255, 166, 0, 0.927);
 }
